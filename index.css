@@ -8,7 +8,8 @@
     --dark: rgb(28, 28, 28);
     --purple: rgb(187, 94, 193);
     --black: black;
-    --white: white
+    --white: white;
+    --gray: rgb(74, 74, 74);
 }
 
 /* space */
@@ -205,6 +206,10 @@
     color: var(--white);
 }
 
+.t-gray {
+    color: var(--gray);
+}
+
 .bg-dark {
     background-color: var(--dark);
 }
@@ -219,6 +224,10 @@
 
 .bg-white {
     background-color: var(--white);
+}
+
+.bg-gray {
+    background-color: var(--gray);
 }
 
 /* flex */
